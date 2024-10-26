@@ -38,7 +38,7 @@ const View = () => {
             <h3 className="font-bold my-2 text-black">Ingredients : {recipe?.ingredients}</h3>
 
             
-            <p>
+            <p className='fw-bold'>
               <span className='font-bold'>Instructions</span>: {recipe?.instructions} 
             </p>
             <div className="flex justify-between mt-5">
