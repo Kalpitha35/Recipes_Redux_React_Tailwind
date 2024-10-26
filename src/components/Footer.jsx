@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div style={{height:'250px',marginTop:'100px'}} className='mt-5 w-full  bg-pink-500 text-white p-4'>
+    <div style={{height:'250px',marginTop:'100px'}} className='mt-5 w-full  bg-pink-700 text-white p-4'>
       
       <div className="flex flex-col justify-between m-5">
 

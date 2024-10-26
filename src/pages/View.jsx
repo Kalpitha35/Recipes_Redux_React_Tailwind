@@ -42,7 +42,7 @@ const View = () => {
               <span className='font-bold'>Instructions</span>: {recipe?.instructions} 
             </p>
             <div className="flex justify-between mt-5">
-              <Link to={'/'}  className="text-white bg-blue-500 rounded p-2">Back</Link>
+              <Link to={'/'}  className="text-white bg-pink-700 rounded p-2">Back</Link>
             </div>
             
           

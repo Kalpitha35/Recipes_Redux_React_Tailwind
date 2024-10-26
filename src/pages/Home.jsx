@@ -55,7 +55,7 @@ const Home = () => {
                     <h3 className='text-xl font-bold'>{recipe?.name}</h3>
                     <p style={{fontSize:'15px'}}>Cuisine : {recipe?.cuisine}</p>
 
-                    <Link className=' bg-pink-500 text-white p-1 mt-3 rounded inline-block'  to={`${recipe?.id}/view`}>View More</Link>
+                    <Link className=' bg-pink-700 text-white p-1 mt-3 rounded inline-block'  to={`${recipe?.id}/view`}>View More</Link>
                   </div>
                       </div>
                 ))
