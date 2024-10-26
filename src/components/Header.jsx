@@ -11,7 +11,7 @@ const Header = ({insideHome}) => {
         <ul className='flex-1 text-right'>
 {   
     insideHome &&
-             <li className='list-none inline-block px-5'> <input onChange={e=>dispatch(searchRecipe(e.target.value.toLowerCase()))} type="text" style={{width:'300px'}} className='rounded p-1' placeholder='Search Recipes Here' /> </li>
+             <li className='list-none inline-block px-5'> <input onChange={e=>dispatch(searchRecipe(e.target.value.toLowerCase()))} type="text" style={{width:'300px'}} className='rounded p-1' placeholder='Search Recipe Cuisine Here' /> </li>
 }        </ul>
     </nav>
   )
